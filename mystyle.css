@@ -20,6 +20,8 @@ html,body{
     text-align: center;
     background: var(--gradient-bg);
     font-family: "Akshar", sans-serif;
+    display: flex;
+    flex-direction: column;
 }
 h1{
     font-size: 4rem;
@@ -123,7 +125,7 @@ footer{
     width: 100%;
     display: flex;
     padding:2%;
-    background: var(--primary-color);
+    background: var(--primary-color);    
 }
 .footer-left{
     flex: 4;

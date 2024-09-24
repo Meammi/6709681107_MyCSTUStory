@@ -140,6 +140,47 @@ footer{
 .footer-right ul{
     columns: 3;
 }
+
+.timeline-container{
+    min-height: 60%;
+    flex: 1;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+.timeline-container::after{
+    content: '';
+    position: absolute;
+    height: 0.5rem;
+    min-width: 80%;
+    background-color: white;
+    top: 50%;
+    bottom: 0;
+    left: 10%;
+}
+.container{
+    position: relative;
+    width: 50%;
+    text-align: left;
+}
+.container::after {
+    content: '';
+    position: absolute;
+    width: 1rem;
+    height: 1rem;
+    left: 50%;
+    top: -10%;
+    background-color: white;
+    border: 4px solid #FF9F55;
+    border-radius: 50%;
+    z-index: 1;
+}
+.top-timeline{
+    top: 0%;
+}
+.bottom-timeline{
+    top: 50%;
+}
 @media all and (max-width: 1440px) {
     .header-text{
         display: flex;

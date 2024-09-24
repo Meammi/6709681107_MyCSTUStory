@@ -143,20 +143,19 @@ footer{
 
 .timeline-container{
     min-height: 60%;
+    width: 60%;
+    margin: 0 auto;
     flex: 1;
-    display: flex;
-    align-items: center;
     position: relative;
 }
 .timeline-container::after{
     content: '';
     position: absolute;
-    height: 0.5rem;
-    min-width: 80%;
+    min-width: 0.5rem;
     background-color: white;
-    top: 50%;
+    top: 0%;
     bottom: 0;
-    left: 10%;
+    left: 50%;
 }
 .container{
     position: relative;
@@ -168,18 +167,21 @@ footer{
     position: absolute;
     width: 1rem;
     height: 1rem;
-    left: 50%;
-    top: -10%;
+    right: -2%;
+    bottom: 50%;
     background-color: white;
     border: 4px solid #FF9F55;
     border-radius: 50%;
     z-index: 1;
 }
-.top-timeline{
-    top: 0%;
+.left-timeline{
+    left: 0%;
 }
-.bottom-timeline{
-    top: 50%;
+.right-timeline{
+    left: 55%;
+}
+.right-timeline::after{
+    left: -11%;
 }
 @media all and (max-width: 1440px) {
     .header-text{

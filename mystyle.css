@@ -147,13 +147,15 @@ footer{
     margin: 0 auto;
     flex: 1;
     position: relative;
+    padding: 2% 0 2% 0%;
 }
 .timeline-container::after{
     content: '';
     position: absolute;
     min-width: 0.5rem;
+    height: 90%;
     background-color: white;
-    top: 0%;
+    top: 5%;
     bottom: 0;
     left: 50%;
 }
@@ -165,8 +167,8 @@ footer{
 .container::after {
     content: '';
     position: absolute;
-    width: 1rem;
-    height: 1rem;
+    width: 1em;
+    height: 1em;
     right: -2%;
     bottom: 50%;
     background-color: white;

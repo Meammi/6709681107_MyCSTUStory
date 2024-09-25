@@ -82,6 +82,7 @@ header{
 
 .main{
     display: flex;
+    flex: 1;
     width: 100%;
     min-height: 60%;
     padding:0 4% 0 4%;
@@ -189,11 +190,33 @@ footer{
     left: -11%;
 }
 
-.double-timeline{
-    display: flex;
+.main-future{
     flex: 1;
-    padding: 1%;
-    margin: 0% 1% 0 1%;
+    min-height: 60%;
+    padding: 2%;
+}
+.main-text{
+    width: 100%;
+    min-height: 10%;
+}
+.container-future{
+    width: 100%;
+    min-height: 90%;
+    display: flex;
+    justify-content: center;
+    margin-top: 1%;
+}
+.main-future-content{
+    width: 100%;
+}
+.main-future-content p{
+    text-align: left;
+    margin: 0% 2% 0% 2%;
+}
+.main-future-content img{
+    width: 60%;
+    height: auto;
+    margin-top: 5%;
 }
 
 @media all and (max-width: 1440px) {

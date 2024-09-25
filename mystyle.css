@@ -208,6 +208,9 @@ footer{
 }
 .main-future-content{
     width: 100%;
+    border: var(--accent-color) solid 1px;
+    border-radius: 4% 4% 4% 4%;
+    margin: 2%;
 }
 .main-future-content p{
     text-align: left;

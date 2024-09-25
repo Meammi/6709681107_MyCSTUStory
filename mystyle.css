@@ -189,6 +189,11 @@ footer{
 .right-timeline::after{
     left: -11%;
 }
+.container img{
+    width: 70%;
+    height: auto;
+    margin-top: 1%;
+}
 
 .main-future{
     flex: 1;
